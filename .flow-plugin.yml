@@ -28,6 +28,6 @@ inputs:
     editable: true  
 
 outputs:
-  - FLOW_QINIU_RESULT
+  - name: FLOW_QINIU_RESULT
 
 script_path: ./run.sh
