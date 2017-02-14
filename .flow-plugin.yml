@@ -7,7 +7,7 @@ tags:
  - qiniu_upload
  - plugin
 
-#public: true
+#public: false
 
 # clone_in_docker: false
 
