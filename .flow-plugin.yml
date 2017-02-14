@@ -1,0 +1,33 @@
+name: qiniu_upload_plugin
+version: 0.0.1
+language: 
+description: qiniu upload plugin, used to save a file to qiniu cdn.
+tags:
+ - qiniu
+ - qiniu_upload
+ - plugin
+
+public: true
+
+# clone_in_docker: false
+
+inputs:
+  - name: FLOW_QINIU_ACCESS_KEY
+    editable: true
+
+  - name: FLOW_QINIU_SECRET_KEY
+    editable: true
+
+  - name: FLOW_QINIU_BUCKET
+    editable: true  
+
+  - name: FLOW_QINIU_KEY
+    editable: true 
+
+  - name: FLOW_QINIU_LOCAL_FILE
+    editable: true  
+
+outputs:
+  - FLOW_QINIU_RESULT
+
+script_path: ./run.sh
